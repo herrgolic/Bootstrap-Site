@@ -1,0 +1,46 @@
+body{
+    padding: auto;
+}
+.hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.nav-item:nth-child(1) {
+    font-weight:bold;
+}
+.nav-item>a:hover>a:active {
+    color: black;
+}
+.centered{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #38c48c;
+    color: white;
+    font-weight:bold;
+    font-size: 110%;
+    height: 35px;
+    width: 400px;
+    text-align: center;
+}
+.nav-link{
+    color: black;
+}
+.py-4{
+    background-color: black;
+}
+.containerl{
+    width: 100%;
+    background-color: #222;
+}
+#container1{
+    background-color: #222;
+    color: gray;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
